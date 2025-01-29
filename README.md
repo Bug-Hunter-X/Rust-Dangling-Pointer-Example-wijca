@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: creating a dangling pointer.  The code attempts to modify a vector through a raw pointer after the vector has been deallocated. This results in undefined behavior, potentially leading to crashes or unexpected results. The solution shows how to avoid this using safe Rust techniques.
